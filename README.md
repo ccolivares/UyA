@@ -12,7 +12,7 @@
 ## Enlaces a prácticas 
 
 
-* [Práctica 2: Introducción a HTML | 12/03/2020](https://github.com/ccolivares/UyA/blob/master/index_Bank.html)
+* [Práctica 2: Introducción a HTML](https://github.com/ccolivares/UyA/blob/master/index_Bank.html)
 
 
 
