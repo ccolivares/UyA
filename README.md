@@ -1,7 +1,7 @@
 # Autores 
 
 
-<bold>Joel Francisco Escobar Socas</bold>
+`Joel Francisco Escobar Socas`
 
 
-<bold>Carla Cristina Olivares Rodríguez</bold>
+`Carla Cristina Olivares Rodríguez`
