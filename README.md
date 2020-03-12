@@ -3,10 +3,10 @@
 ## Autores | Grupo 6
 
 
-*Joel Francisco Escobar Socas | alu0101130408*
+⋅⋅**Joel Francisco Escobar Socas | alu0101130408*
 
 
-*Carla Cristina Olivares Rodríguez | alu0101120218*
+⋅⋅**Carla Cristina Olivares Rodríguez | alu0101120218*
 
 
 ## Enlaces a prácticas 
