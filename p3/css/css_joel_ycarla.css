@@ -1,0 +1,74 @@
+* {
+    font-family: Arial;
+    color: black;
+    font-size: 1,5em;
+    width: 770px;
+
+  }
+
+header{
+
+    width: 430px;
+    background-image: url(../images/cabecera.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    border-style: solid;
+    display: inline-block;
+    position: relative;
+    top:0px ;
+    bottom: 100px;
+    right:100px ;
+    left: 0px ;
+    height: 100px;
+
+}
+
+footer{
+    border-style: solid;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    bottom: 0px ;
+    right: 0px;
+    left: 0px;
+    width: 760px;
+}
+
+.second_part{
+
+    width: 320px;
+    border-color: black;
+    border-style:solid;
+    display: inline-block;
+    height: 370px;
+    position: relative;
+
+}
+
+.principal{
+    
+    width: 230px;
+    border-color: black;
+    border-style:solid;
+    display: inline-block;
+    height: 258px;
+    position: absolute;
+    top: 120px;
+    bottom:0px ;
+    right: 0px;
+    left: 338px;
+}
+
+.links_derechos{
+    
+    width: 190px;
+    border-color: black;
+    border-style:solid;
+    display: inline-block;
+    height: 258px;
+    position: absolute;
+    top: 120px;
+    bottom:0px ;
+    right: 0px;
+    left: 578px;
+}
