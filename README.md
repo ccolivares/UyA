@@ -14,7 +14,7 @@
 
 * [Práctica 2: Introducción a HTML](https://github.com/ccolivares/UyA/blob/master/index_Bank.html)
 
-* [Práctica 3: Introducción a CSS](https://github.com/ccolivares/UyA/tree/master/p3)
+* [Práctica 3: Introducción a CSS](https://github.com/ccolivares/UyA/tree/master/p3/css)
 
 
 
