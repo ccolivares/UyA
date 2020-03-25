@@ -20,22 +20,25 @@
 <body>
 <!--Header de la página -->   
     <header>
-      <nav class="color_c" >
-        <div class="nav-wrapper"  >
-          <a href="#" class="brand-logo center"><img src="img/saturno2.jpg" width="100"></a>
-          <ul id="nav-mobile" class="left hide-on-med-and-down">
-            <li><a href="sass.html">Inicio</a></li>
-            <li><a href="badges.html">¿Quienes Somos?</a></li>
-            <li><a href="collapsible.html">¿Donde encontrarnos?</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="navbar-fixed">
+        <nav class="color_c">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo center title"><img src="img/saturno2.jpg" width="100">TimeBank</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><a href="#inicio">Incio</a></li>
+              <li><a href="#weare">¿Quienes somos?</a></li>
+              <li><a href="#where">¿Donde encontrarnos?</a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down"><a href="#" class="right ">Login</a></ul>
+          </div>
+        </nav>
+      </div>    
     </header>
 
     <!-- Page Layout here -->
     
-    <div class="row text_deco">
-      <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was added -->
+    <div class="row text_deco  " id="inicio">
+      <div class="col s12 m4 l3 rectangle_form "> <!-- Note that "m4 l3" was added -->
       <!-- Grey navigation panel -->
         <form action="" method="">
           <h2>Unete a la comunidad</h2>
@@ -52,10 +55,10 @@
         </form>
       </div>
   
-      <div class="col s12 m8 l9"> <!-- Note that "m8 l9" was added -->
-        <!-- Teal page content -->
-        <div>
-          <h3>Introduccion</h3>
+      <div class="col s12 m8 l9 "> 
+        
+        <div class="container">
+          <h3 class="center">Introduccion</h3>
           <p>
             Un banco de tiempo es un sistema de intercambio de servicios por tiempo. En el la unidad de intercambio no es el dinero habitual sino una medida de tiempo. 
             Es un sistema de intercambio de servicios por servicios o favores por favores. 
@@ -68,18 +71,81 @@
             <li>¿Como producir?</li>
             <li>¿Para quien producir?</li>        
           </ul>
+
+
+<!--Tabla -->
+
+<table>
+  <thead>
+    <tr>
+        <th>Name</th>
+        <th>Item Name</th>
+        <th>Item Price</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Alvin</td>
+      <td>Eclair</td>
+      <td>$0.87</td>
+    </tr>
+    <tr>
+      <td>Alan</td>
+      <td>Jellybean</td>
+      <td>$3.76</td>
+    </tr>
+    <tr>
+      <td>Jonathan</td>
+      <td>Lollipop</td>
+      <td>$7.00</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!--Quienes somos -->
+        <h4 class=" center" id="weare">¿Quienes Somos?</h4>
+        <div class="row center">
+
+        <div class="col s4 ">
+          <img src="img/JoelHappy.png" width="200px" class="circle center">
+          <div class="rectangle_form ">
+            <h6> Joel Francisco Escobar Socas</h6>
+            <p>Desarrollador Web</p>
+          </div>
+        </div>
+
+        <div class="col s4">
+          <img src="img/dinologo.png" width="140px" class="circle center">
+          <div class="rectangle_form ">
+            <h6> Carla Cristina Olivares Rodiguez</h6>
+            <p>Directora Ejecutiva / Analista</p>
+          </div>
         </div>
 
       </div>
+      <!--donde encontrarnos -->
+      <div>
+        <h5 class="center" id="where">¿Donde encontrarnos?</h5>
+        <div class="row center ">
+          <div class=" col s12 ">
+              <a href="https://www.google.com/maps/place/Escuela+Superior+de+Ingenier%C3%ADa+y+Tecnolog%C3%ADa+de+la+Universidad+de+la+Laguna/@28.483045,-16.3213491,15z/data=!4m5!3m4!1s0x0:0xd2b94248483a7c7f!8m2!3d28.483045!4d-16.3213491"><img src="img/ull.jpg" width="500px"></a>
+          </div>
+        </div>
+       
+
+      </div>
+      
+
+
+
+
+      </div>
+    
+      </div>
   
     </div>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
 
 <!--FOOTER de la pagina -->
   <footer class="color_c" >
@@ -91,7 +157,7 @@
             <p class="grey-text text-lighten-4">Joel Francisco Escobar Socas (Alu0101130408@ull.edu.es)</p>
         </div>
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Enlaces</h5>
+          <h6 class="white-text">Enlaces</h6>
           <ul>
             <li><a class="grey-text text-lighten-3" href="https://es.linkedin.com/">Linkedin</a></li>
             <li><a class="grey-text text-lighten-3" href="https://github.com/ccolivares/UyA">Github</a></li>
