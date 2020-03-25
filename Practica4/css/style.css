@@ -1,0 +1,17 @@
+
+body{
+    background:url(../img/black.jpg) left top repeat;
+}
+
+.color_c{
+    background-color: darkorange;
+    text-decoration: white;
+}
+
+.color_d{
+    background-color: orange;
+}
+
+.text_deco{
+    color: white;
+}
