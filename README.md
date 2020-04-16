@@ -29,4 +29,4 @@
 
 * [Pautas Accesibilidad WCAG 2.1 Criterio Operable]()
 
-* [riterios - Técnicas WCAG 2.1 (II)]()
+* [Criterios - Técnicas WCAG 2.1 (II)]()
