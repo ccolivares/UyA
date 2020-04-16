@@ -1,0 +1,12 @@
+body{
+    background-color: sandybrown;
+}
+
+.caja {
+     background-color: white;
+     padding: 20px;
+     margin: 20px 20px 20px 20px ;
+}
+.margen{
+    margin: 20px 20px 20px 20px;
+}

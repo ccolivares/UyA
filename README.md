@@ -20,4 +20,4 @@
 
 * [Práctica 5: Introducción a JavaScript](https://github.com/ccolivares/UyA/tree/master/Practica5)
 
-
+* [Práctica 5: Introducción a AJAX](https://github.com/ccolivares/UyA/tree/master/Practica6)
