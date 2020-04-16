@@ -11,6 +11,7 @@
 
 ## Enlaces a prácticas 
 
+### PRÁCTICAS
 
 * [Práctica 2: Introducción a HTML](https://github.com/ccolivares/UyA/blob/master/index_Bank.html)
 
@@ -20,4 +21,12 @@
 
 * [Práctica 5: Introducción a JavaScript](https://github.com/ccolivares/UyA/tree/master/Practica5)
 
-* [Práctica 6: Introducción a AJAX](https://github.com/ccolivares/UyA/tree/master/Practica6)
+* [Práctica 6: Introducción a AJAX]()
+
+### TEORÍA
+
+* [Criterios - Técnicas WCAG 2.1. Perceptible](https://github.com/ccolivares/UyA/blob/master/WCAG/Criterios%20perceptible%20WCAG%20_%20Joel%20Escobar%20y%20Carla%20Olivares.pdf)
+
+* [Pautas Accesibilidad WCAG 2.1 Criterio Operable]()
+
+* [riterios - Técnicas WCAG 2.1 (II)]()
