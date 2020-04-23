@@ -25,9 +25,9 @@
 
 * [Práctica 7: Introducción a Firebase I (Código inicial)](https://github.com/ccolivares/UyA/tree/master/Practica7/Codigoinicialp7.html)
 
-    * [Informe Firebase](https://github.com/ccolivares/UyA/blob/master/practica7/InformeP7.md)
+    * [Informe Firebase](https://github.com/ccolivares/UyA/blob/master/Practica7/InformeP7.md)
     
-    * [Código completo](https://github.com/ccolivares/UyA/blob/master/practica7/Practica7_UyA.html)
+    * [Código completo](https://github.com/ccolivares/UyA/blob/master/Practica7/Practica7_UyA.html)
 
 #### TEORÍA
 
