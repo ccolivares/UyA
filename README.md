@@ -23,9 +23,11 @@
 
 * [Práctica 6: Introducción a AJAX](https://github.com/ccolivares/UyA/tree/master/Practica6)
 
-* [Práctica 7: Introducción a Firebase I](https://github.com/ccolivares/UyA/tree/master/introfirebase1.html)
+* [Práctica 7: Introducción a Firebase I (Código inicial)](https://github.com/ccolivares/UyA/tree/master/Practica7/Codigoinicialp7.html)
 
-* [Práctica 7: Introducción a Firebase I (Informe)]()
+    * [Informe Firebase](https://github.com/ccolivares/UyA/blob/master/practica7/InformeP7.md)
+    
+    * [Código completo](https://github.com/ccolivares/UyA/blob/master/practica7/Practica7_UyA.html)
 
 #### TEORÍA
 
