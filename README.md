@@ -21,7 +21,11 @@
 
 * [Práctica 5: Introducción a JavaScript](https://github.com/ccolivares/UyA/tree/master/Practica5)
 
-* [Práctica 6: Introducción a AJAX]()
+* [Práctica 6: Introducción a AJAX](https://github.com/ccolivares/UyA/tree/master/Practica6)
+
+* [Práctica 7: Introducción a Firebase I](https://github.com/ccolivares/UyA/tree/master/introfirebase1.html)
+
+* [Práctica 7: Introducción a Firebase I (Informe)]()
 
 #### TEORÍA
 
