@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Firebase Cliente Web</title>
+</head>
+<body>
+    <h1>Practica 7: Registro de usuarios</h1>
+    <h2>Autores: Joel Francisco Escobar Socas y Carla Cristina Olivares Rodríguez</h2>
+    <hr>
+    <p>Al pulsar el siguiente botón se crea un usuario predeterminado en nuestra base de datos </p>
+    <button onclick="enviar()">Registar usuario</button>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDDkfsUqUBpqZfADtixTFQsEMC3Y8sxk2s",
+    authDomain: "fir-uya-bb23c.firebaseapp.com",
+    databaseURL: "https://fir-uya-bb23c.firebaseio.com",
+    projectId: "fir-uya-bb23c",
+    storageBucket: "fir-uya-bb23c.appspot.com",
+    messagingSenderId: "566679812065",
+    appId: "1:566679812065:web:bbc8817f3f1928bf2b84a0",
+    measurementId: "G-X4R0DFF1DV"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  
+      //funcion enviar
+      function enviar(){
+        var database = firebase.database();
+        var usuarios = database.ref('Usuario');
+
+      //Escribir un documento
+      usuarios.set({
+            nombre: 'Eduardo Alonso Olivares',
+            contraseña: 'isabeleshermosa1234',
+            id: 'Alonvares',
+           
+        });
+      }
+      
+    </script>
+  
+
+</body>
+</html>
