@@ -33,4 +33,4 @@
 
 * [Pautas Accesibilidad WCAG 2.1 Criterio Operable]()
 
-* [Criterios - Técnicas WCAG 2.1 (II)]()
+* [Criterios - Técnicas WCAG 2.1 (II)](https://github.com/ccolivares/UyA/blob/master/WCAG/Criterios%20%20Comprensible%20y%20Robusto_Joel%20Escobar%20y%20Carla%20Olivares.pdf)
