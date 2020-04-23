@@ -1,4 +1,4 @@
-## Introducción Firebase I
+# Introducción Firebase I
 
 ## Autores
 
@@ -13,16 +13,16 @@ El objetivo principal de esta práctica es utilizar una base de datos en Firebas
 
 En la siguiente imágen podemos apreciar como nuestra base de datos se mantiene vacía, ya que en ese momento no habíamos añadido ninguna información a ella. 
 
-https://github.com/ccolivares/UyA/blob/master/Capturas/Captura_antes.PNG
+![Antes de introducir los datos en la base de datos](Capturas/Captura_antes.PNG)
 
 Luego de esto hicimos el desarrollo de un código simple, su función es añadir un usuario que nosotros mismos hemos creado como predeterminado dentro de una función JavaScript, un botón acciona esta función y automáticamente se crea un usuario y se envía a nuestra base de datos. Decidimos hacer este código muy simple pero se puede hacer más útil, por ejemplo, haciendo un formulario. 
 
-https://github.com/ccolivares/UyA/blob/master/Capturas/funcion_enviar.PNG
+![Funcion JS enviar](Capturas/funcion_enviar.PNG)
 
 Aquí podemos ver como luce nuestra página, con el botón en cuestión que accionará la función *enviar()* de la imágen anterior.
 
-https://github.com/ccolivares/UyA/blob/master/Capturas/capturapagina.png
+![Nuestra pagina](Capturas/capturapagina.png)
 
 Para finalizar vemos como se han introducido los datos en nuestra base de datos correctamente, ahí se encuentra nuestro usuario predeterminado como acabamos de ver en código, cada vez que accionemos el botón de nuestra página se creará el mismo usuario y se añadirá la información a la base de datos.
 
-https://github.com/ccolivares/UyA/blob/master/Capturas/captura_despues.PNG
+![Despues de introducir los datos en la base de datos](Capturas/captura_despues.PNG)
