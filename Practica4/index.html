@@ -1,0 +1,182 @@
+﻿<!--Practica 4: Introducción a materialize
+  Autores: Joel Francisco Escobar Socas Y Carla Cristina Olivares Rodriguez
+  Asignatura: Usabilidad y Accesibilidad 
+  Grado en Ingeniería Informatica de la Universidad de la Laguna (ULL)-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Time</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Compilado CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compilado y simplificación JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!--Para la fuente de iconos -->      
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+<!--Header de la página -->   
+    <header>
+      <div class="navbar-fixed">
+        <nav class="color_c">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo center title"><img src="img/saturno2.jpg" width="100">TimeBank</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><a href="#inicio">Incio</a></li>
+              <li><a href="#weare">¿Quiénes somos?</a></li>
+              <li><a href="#where">¿Dónde encontrarnos?</a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down"><a href="#" class="right ">Login</a></ul>
+          </div>
+        </nav>
+      </div>    
+    </header>
+    
+    <div class="row text_deco  " id="inicio">
+      <div class="col s12 m4 l3 rectangle_form "> 
+
+        <form action="" method="">
+          <h2>Únete a la comunidad</h2>
+          <input type="Email" placeholder="Correo electrónico" size="50" maxlength="80">
+          <br />
+          <input type="password" placeholder="Contraseña" size="50" maxlength="80">
+          <br/>
+          <input type="password" placeholder="Repetir contraseña" size="50" maxlength="80">
+          <br />
+          <br />
+          <label>
+            <input type="checkbox" class="red"> 
+            <span>Acepto términos y condiciones</span>
+          </label>
+          <br />
+          <br />
+          <a class="waves-effect waves-light btn orange"><i class="material-icons right">chevron_right</i>Enviar</a> 
+          <br />
+        </form>
+      </div>
+  
+      <div class="col s12 m8 l9 "> 
+        
+        <div class="container">
+          <h3 class="center">Introduccion</h3>
+          <p>
+            Un banco de tiempo es un sistema de intercambio de servicios por tiempo. En el la unidad de intercambio no es el dinero habitual sino una medida de tiempo. 
+            Es un sistema de intercambio de servicios por servicios o favores por favores. 
+            Se plantea el uso de este tipo de economía para solucionar diversos problemas presentes en la economía de mercado, a modo de economías complementarias o mercados alternativos.
+          </p>
+
+          <p>Alguno de los problemas de mercados son:</p>
+          <ul>
+            <li>¿Qué producir y en que cantidad?</li>
+            <li>¿Cómo producir?</li>
+            <li>¿Para quién producir?</li>        
+          </ul>
+
+
+<!--Tabla -->
+
+<table>
+  <thead>
+    <tr>
+      <th>Cliente</th>
+      <th>Objeto</th>
+      <th>Precio</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Miguel</td>
+      <td>Caramelos</td>
+      <td>$0.87</td>
+    </tr>
+    <tr>
+      <td>Alain</td>
+      <td>Papas</td>
+      <td>$3.76</td>
+    </tr>
+    <tr>
+      <td>Cristian</td>
+      <td>Fotocopias</td>
+      <td>$7.00</td>
+    </tr>
+  </tbody>
+</table>
+
+
+<!--Quienes somos -->
+        <h4 class=" center" id="weare">¿Quienes Somos?</h4>
+        <div class="row center">
+
+        <div class="col s4 ">
+          <img src="img/JoelHappy.jpg" height="120px" class="circle center">
+          <div class="rectangle_form ">
+            <h6> Joel Francisco Escobar Socas</h6>
+            <p>Desarrollador Web</p>
+          </div>
+        </div>
+
+        <div class="col s4">
+          <img src="img/CarlaHappy.jpg" height="120px" class="circle center">
+          <div class="rectangle_form ">
+            <h6> Carla Cristina Olivares Rodríguez</h6>
+            <p>Directora Ejecutiva</p>
+          </div>
+        </div>
+
+      </div>
+      <!--donde encontrarnos -->
+      <div>
+        <h5 class="center" id="where">¿Dónde encontrarnos?</h5>
+        <div class="row center ">
+          <div class=" col s12 ">
+              <a target="_blank"href="https://www.google.com/maps/place/Escuela+Superior+de+Ingenier%C3%ADa+y+Tecnolog%C3%ADa+de+la+Universidad+de+la+Laguna/@28.483045,-16.3213491,15z/data=!4m5!3m4!1s0x0:0xd2b94248483a7c7f!8m2!3d28.483045!4d-16.3213491"><img src="img/ull.jpg" width="500px"></a>
+          </div>
+        </div>
+       
+
+      </div>
+      
+
+
+
+
+      </div>
+    
+      </div>
+  
+    </div>
+
+<!--FOOTER de la pagina -->
+  <footer class="color_c" >
+    <div class="container" >
+      <div class="row" >
+        <div class="col l6 s12" >
+          <h5 class="white-text">ETSII - Usabilidad y Accesibilidad (UyA)</h5>
+            <p class="grey-text text-lighten-4">Carla Cristina Olivares Rodriguez (Alu0101120218@ull.edu.es)</p>
+            <p class="grey-text text-lighten-4">Joel Francisco Escobar Socas (Alu0101130408@ull.edu.es)</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h6 class="white-text">Enlaces</h6>
+          <ul>
+            <li><a class="grey-text text-lighten-3" target="_blank" href="https://es.linkedin.com/"><img class="circle" src="img/LinkedIn.png" height="40px" /></a></li>
+            <li><a class="grey-text text-lighten-3" target="_blank" href="https://github.com/ccolivares/UyA"><img class="circle" src="img/github.png" height="40px" /></a></li>
+            <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.ull.es/"><img class="circle"  src="img/ulllogo.png" height="40px" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="container text_deco">
+        © 2020 Copyright 
+      </div>
+    </div>
+        
+  </footer>
+                     
+</body>
+</html>

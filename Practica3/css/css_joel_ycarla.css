@@ -1,0 +1,170 @@
+* {
+    font-family: Arial;
+    color: black;
+    font-size: 1,5em;
+    width: 770px;
+
+  }
+
+header{
+
+    width: 430px;
+    background-image: url(../images/cabecera.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    border-style: solid;
+    display: inline-block;
+    position: relative;
+    top: -188px;
+    bottom: 100px;
+    right:100px;
+    left: 0px;
+    height: 100px;
+
+}
+
+footer{
+    border-style: solid;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    bottom: 0px ;
+    right: 0px;
+    left: 0px;
+    width: 760px;
+    height: 60px;
+}
+
+.second_part{
+
+    width: 320px;
+    border-color: black;
+    border-style:solid;
+    display: inline-block;
+    height: 370px;
+    position: relative;
+   
+}
+
+.infotext {
+    position: relative;
+    text-align: justify;
+    width: 285px;
+    left: 10px;
+    padding: 0.3em;
+    margin-bottom: 0.7em;
+}
+
+.principal {
+  width: 230px;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+  height: 258px;
+  position: absolute;
+  top: 120px;
+  bottom: 0px;
+  right: 0px;
+  left: 338px;
+  background-image: url(../images/moon.png);
+  background-position: left;
+  background-size: cover;
+
+}
+
+
+.infotext1 {
+  position: relative;
+  text-align: justify;
+  width: 200px;
+  left: 10px;
+  top: 10px;
+}
+
+.links_derechos{
+    
+   width: 190px;
+   border-color: black;
+   border-style:solid;
+   display: inline-block;
+   height: 258px;
+   position: absolute;
+   top: 120px;
+   bottom: 0px;
+   right: 0px;
+   left: 578px;
+}
+
+.infotext2 {
+   position: relative;
+   text-align:inherit;
+   width: 120px;
+   left: 10px;
+   top: 10px;
+}
+
+.lista {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  left: -20px;
+}
+
+.enlaces {
+  color: blue;
+}
+
+.enlaces:hover {
+  color: red;
+}
+
+.enlaces2 {
+  color: lawngreen;
+}
+
+.enlaces2:hover {
+  color: red;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: 25px;
+    bottom: 0px;
+    right: 0px;
+    left: 50px;
+    border-radius: 10px;
+}
+
+button:hover {
+  background-color: lightgreen;
+  
+}
+
+table {
+  display: block;
+  position: relative;
+  height: 20px;
+  width: 200px;
+  text-align: center;
+  top: 30px;
+
+}
+
+tr, td {
+  border: solid;
+  border-spacing: 0px;
+}
+
+.pie {
+  position: relative;
+  left: 90px;
+  top: 10px;
+}
+
+.redes {
+  position: relative;
+  left: 180px;
+}

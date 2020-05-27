@@ -1,0 +1,31 @@
+
+body{
+    background:url(../img/black.jpg) left top repeat;
+}
+
+.color_c{
+    background-color: darkorange;
+    text-decoration: white;
+}
+
+
+.text_deco{
+    color: white;
+}
+
+.rectangle_form{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin-top: 1em;
+    margin-left: 1em;
+    border-style: solid;
+}
+
+.rectangle_1{
+    background-color: white;
+    margin: 1em 1em 1em 1em;
+}
+.imagen_sitio{
+    background-image: url(../img/ull.jpg);
+}

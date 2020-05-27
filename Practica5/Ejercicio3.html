@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de diferentes monedas</title>
+    <!--Programa que realiza la conversion de euro a tres tipos de monedas diferentes-->
+    <script type="text/javascript">
+    //Funcion que calcula de euro a dolares
+        function convertir_euros_a_dollares(euro){
+            numero_introducido = /[0-9\.]$/
+
+            if (!numero_introducido.exec(euro)){
+                alert("El numero introducido no es valido");
+            }
+            else{
+                dollar = parseFloat(1.10);
+                resultado = dollar*parseFloat(euro);
+                document.getElementById("total").innerHTML = euro + " euros son... " + resultado.toFixed(2) + " dolares";  
+            }      
+        }
+    //Funcion que calcula de euros a libras esterlinas
+        function convertir_euros_a_libras(euro){
+            numero_introducido = /[0-9\.]$/
+
+            if (!numero_introducido.exec(euro)){
+                alert("El numero introducido no es valido");
+            }
+            else{
+                libras = parseFloat(0.88);
+                resultado = libras*parseFloat(euro);
+                document.getElementById("total").innerHTML = euro + " euros son... " + resultado.toFixed(2) + " libras esterlinas";  
+            }      
+        }
+        //Funcion que calcula de pesos argentinos a euros
+        function convertir_pesos_a_euros(pesos){
+            numero_introducido = /[0-9\.]$/
+            if (!numero_introducido.exec(pesos)){
+                alert("El numero introducido no es valido");
+            }
+            else{
+                euro = parseFloat(0.014);
+                resultado = euro*parseFloat(pesos);
+                document.getElementById("total").innerHTML = pesos + " dollares son ... " + resultado.toFixed(2) + " euros";
+            }
+        }
+
+    </script>
+
+</head>
+<body>
+   <!--Main donde llamo a las funciones de arriba --> 
+    <input type="text" id="dollar"><input type="button" value="Convertir de euros a dolares" onclick="convertir_euros_a_dollares(document.getElementById('dollar').value)">
+    <br>
+
+    <input type="text" id="libra"><input type="button" value="Convertir de euros a libras" onclick="convertir_euros_a_libras(document.getElementById('libra').value)">
+    <br>
+
+    <input type="text" id="euros"><input type="button" value="Convertir de pesos argentinos a euros" onclick="convertir_pesos_a_euros(document.getElementById('euros').value)">
+    <br>
+
+    <div id="total">
+        
+    </div>
+
+
+</body>
+</html>
