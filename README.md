@@ -28,23 +28,19 @@
     * [Informe Firebase](https://github.com/ccolivares/UyA/blob/master/Practica7/InformeP7.md)
     
     * [Código completo](https://github.com/ccolivares/UyA/blob/master/Practica7/Practica7_UyA.html)
-<<<<<<< HEAD
     
-* [Práctica 8: Accesibilidad Web]()
+* [Práctica 8: Accesibilidad Web](https://pm1.narvii.com/6332/539486ace2c33a285c6dbda03026abbfb366cf36_hq.jpg)
 
-    * [Ejercicio WAI-ARIA]()
+    * [Ejercicio WAI-ARIA](https://pm1.narvii.com/6332/539486ace2c33a285c6dbda03026abbfb366cf36_hq.jpg)
     
-    * [Widgets accesibles]()
+    * [Widgets accesibles](https://pm1.narvii.com/6332/539486ace2c33a285c6dbda03026abbfb366cf36_hq.jpg)
     
-* [Práctica 9: Usabilidad Web]()
+* [Práctica 9: Usabilidad Web](https://pm1.narvii.com/6332/539486ace2c33a285c6dbda03026abbfb366cf36_hq.jpg)
 
-    * [Principios Usabilidad Nielsen]()
+    * [Principios Usabilidad Nielsen](https://pm1.narvii.com/6332/539486ace2c33a285c6dbda03026abbfb366cf36_hq.jpg)
     
-    * [Diseño Responsive]()
+    * [Diseño Responsive](https://pm1.narvii.com/6332/539486ace2c33a285c6dbda03026abbfb366cf36_hq.jpg)
     
-    
-=======
->>>>>>> 48702bfb87cbe63f52f717fcc3305f7aced98708
 
 #### TEORÍA
 
