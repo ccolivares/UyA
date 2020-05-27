@@ -28,6 +28,20 @@
     * [Informe Firebase](https://github.com/ccolivares/UyA/blob/master/Practica7/InformeP7.md)
     
     * [Código completo](https://github.com/ccolivares/UyA/blob/master/Practica7/Practica7_UyA.html)
+    
+* [Práctica 8: Accesibilidad Web]()
+
+    * [Ejercicio WAI-ARIA]()
+    
+    * [Widgets accesibles]()
+    
+* [Práctica 9: Usabilidad Web]()
+
+    * [Principios Usabilidad Nielsen]()
+    
+    * [Diseño Responsive]()
+    
+    
 
 #### TEORÍA
 
