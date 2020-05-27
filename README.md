@@ -28,6 +28,7 @@
     * [Informe Firebase](https://github.com/ccolivares/UyA/blob/master/Practica7/InformeP7.md)
     
     * [Código completo](https://github.com/ccolivares/UyA/blob/master/Practica7/Practica7_UyA.html)
+<<<<<<< HEAD
     
 * [Práctica 8: Accesibilidad Web]()
 
@@ -42,6 +43,8 @@
     * [Diseño Responsive]()
     
     
+=======
+>>>>>>> 48702bfb87cbe63f52f717fcc3305f7aced98708
 
 #### TEORÍA
 
