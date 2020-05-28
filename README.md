@@ -29,11 +29,11 @@
     
     * [Código completo](https://github.com/ccolivares/UyA/blob/master/Practica7/Practica7_UyA.html)
     
-* [Práctica 8: Accesibilidad Web](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDqraFJboLbvP4Ay7WXXB9qZk0rJzDa1MkI7qoUE-wnksrgoSB&usqp=CAU)
+* [Práctica 8: Accesibilidad Web](https://imgflip.com/i/432pok)
 
-    * [Ejercicio WAI-ARIA](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDqraFJboLbvP4Ay7WXXB9qZk0rJzDa1MkI7qoUE-wnksrgoSB&usqp=CAU)
+    * [Ejercicio WAI-ARIA](https://imgflip.com/i/432pok)
     
-    * [Widgets accesibles](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSDqraFJboLbvP4Ay7WXXB9qZk0rJzDa1MkI7qoUE-wnksrgoSB&usqp=CAU)
+    * [Widgets accesibles](https://imgflip.com/i/432pok)
     
 * [Práctica 9: Usabilidad Web](https://github.com/ccolivares/UyA/blob/master/Practica9)
 
