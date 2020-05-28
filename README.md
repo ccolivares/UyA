@@ -35,11 +35,11 @@
     
     * [Widgets accesibles](https://pm1.narvii.com/6332/539486ace2c33a285c6dbda03026abbfb366cf36_hq.jpg)
     
-* [Práctica 9: Usabilidad Web](https://pm1.narvii.com/6332/539486ace2c33a285c6dbda03026abbfb366cf36_hq.jpg)
+* [Práctica 9: Usabilidad Web](https://github.com/ccolivares/UyA/blob/master/Practica9)
 
-    * [Principios Usabilidad Nielsen](https://pm1.narvii.com/6332/539486ace2c33a285c6dbda03026abbfb366cf36_hq.jpg)
+    * [Principios Usabilidad Nielsen](https://github.com/ccolivares/UyA/blob/master/Practica9/CheckListNielsen.pdf)
     
-    * [Diseño Responsive](https://pm1.narvii.com/6332/539486ace2c33a285c6dbda03026abbfb366cf36_hq.jpg)
+    * [Diseño Responsive](https://github.com/ccolivares/UyA/blob/master/Practica9/index.html)
     
 
 #### TEORÍA
