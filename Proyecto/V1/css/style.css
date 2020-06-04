@@ -1,0 +1,24 @@
+body{
+  background:url(../img/fondo.jpg) left top repeat;
+}
+
+.button_login{
+  background:#424242;
+  border-radius: 10px;
+  margin-left: 3em;
+}
+header{
+  background:url(../img/fondo.jpg) left top repeat;
+  padding: 1px;
+  color: white;
+}
+
+.color_1{
+  background: #fb8c00;
+}
+
+.recuadro{
+  background:#fffde7;
+  margin: 15px;
+  padding: 10px;
+}
