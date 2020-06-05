@@ -22,3 +22,20 @@ header{
   margin: 15px;
   padding: 10px;
 }
+
+.btn_information{
+  background:#212121 ;
+  color: white;
+  border: 0.1rem solid #fffde7;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 10px;
+  border-radius: 10px;
+  margin:10px;
+}
+
+.btn_information:hover{
+background: #424242;
+}
+
+
