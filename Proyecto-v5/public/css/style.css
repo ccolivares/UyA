@@ -45,6 +45,8 @@ background: #424242;
 
 p{
 padding: 1em;
+text-decoration: none;
+color: black;
 }
 
 .image_size{
@@ -52,10 +54,12 @@ padding: 1em;
   height: auto;
 }
 
+
 .words_style{
  /*font-family: 'Times New Roman', Times, serif;*/
   text-align: justify; 
   padding: 15px;
+ 
 }
 
 .space_between{
@@ -73,3 +77,5 @@ padding: 1em;
 .class_justify{
   text-align: justify;
 }
+
+
