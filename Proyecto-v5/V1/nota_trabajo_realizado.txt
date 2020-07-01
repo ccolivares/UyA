@@ -1,6 +1,0 @@
-Ya he realizado la estructura general de la página quiero comentarle un par de cosas a mi compañera.
-Falta por:
-- crear firebase
-- agrupar todas las etiquetas style que hay en el html
-- hacer la funcionalidades de javascript
-- comentar el aspecto y cambio de colores etc....
