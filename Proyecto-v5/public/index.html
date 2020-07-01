@@ -1,65 +1,238 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Time</title>
+    <!--Logotipo en la parte superior de la página-->
+    <link rel="icon" href="/img/logo.png" type="image/png">
+    <!--Para la fuente de iconos -->      
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+    <!-- Compilado CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.15.5/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.15.5/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.15.5/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.15.5/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.15.5/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+ 
+</head>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+
+<body>
+<!--NAV de la pagina -->
+  <header >
+    <a href="index.html"><h1 class="main_tittle center white-text"> <img class="center" src="/img/logo.png" width="100px">Gold Time</h1></a>
+    <h6 class="center white-text main_subtitle">Aqui va un eslogan</h6>
+    
+  </header>
+<div>
+  <nav class="nav-wrapper orange darken-3">
+      <a href="#" data-target="menu-responsive" class="sidenav-trigger">
+          <i class="material-icons">menu</i>
+      </a>
+
+      <ul class="left hide-on-med-and-down ">
+          <li><a href="#"><i class="material-icons left">home</i>Inicio</a></li>
+          <li><a href="/sites/information.html"><i class="material-icons left">description</i>Información</a></li>
+          <li><a href="/sites/service.html"><i class="material-icons left">dns</i>Servicios</a></li>
+          <li><a href="/sites/who.html"><i class="material-icons left">person</i>¿Quienes somos?</a></li>
+          
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/sites/tools.html"><i class="material-icons left">build</i>Accesibilidad</a></li>
+        <li class="button_login"><a href="/sites/register.html"><i class="material-icons left">group_add</i>Registrarse</a></li>
+      </ul>
+      <!--Menu responsive-->
+      <ul class="sidenav  orange darken-3" id="menu-responsive">
+        <li><a href="#"><i class="material-icons left">home</i>Inicio</a></li>
+        <li><a href="/sites/information.html"><i class="material-icons left">description</i>Información</a></li>
+        <li><a href="/sites/service.html"><i class="material-icons left">dns</i>Servicios</a></li>
+        <li><a href="/sites/who.html"><i class="material-icons left">person</i>¿Quienes somos?</a></li>
+        <li><a href="/sites/tools.html"><i class="material-icons left">build</i>Accesibilidad</a></li>
+        <li><a href="/sites/register.html"><i class="material-icons left">group_add</i>Registrarse</a></li>
+      </ul>
+  </nav>
+</div>
+
+
+<!--BODY de la pagina -->
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m12 l4">
+        <div class="row"> 
+          <div class="space_between">
+            <div class="card orange lighten-3">
+              <div class="card-content black-text">
+                <div class="center">
+                  <img class="center image_size" src="/img/inicio-img/def.png">
+                </div>
+                <span class="card-title center"><b>¿Qué es un banco de tiempo?</b></span>
+                  <p class="words_style">
+                    El Banco del Tiempo promueve intercambios de tiempo entre distintos usuarios que estén dados de alta en el sistema.
+                    El intercambio consiste en ofrecer un determinado servicio a cambio del tiempo que cueste realizarlo y demandar otros servicios a cambio del valor que se esté dispuesto a pagar.
+                  </p>
+                  <p>
+                    Todos los servicios tienen el mismo valor, vale lo mismo acompañar niños al colegio, que arreglar un enchufe, una máquina o pasear al perro.
+                    Los servicios que se pueden ofrecer dependen de las personas que se apunten al Banco. 
+                  </p>
+                  <p>
+                    Además de esto, los intercambios son multilaterales, es decir, un socio puede acompañar a una persona al médico 
+                    y luego utilizar el tiempo que ha ganado con este servicio para realizar talleres variados o adquirir bienes o productos que ofrece otro socio  
+                    <hr>
+                  </p>
+                  <a href="/sites/information.html" class="btn_information"> Si quieres conocer más clickea aquí</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <div class="col s12 m12 l4">
+        <div class="row"> 
+          <div  class="space_between">
+            <div class="card orange lighten-3">
+              <div class="card-content black-text">
+                <div class="center">
+                  <img class="center image_size" src="/img/inicio-img/schema_howwork.png">
+                </div>
+                <span class="card-title center"><b>¿Cómo funciona?</b></span>
+                  <p class="words_style">
+                    La finalidad de un banco de tiempo es la de formentar 
+                    la prestación de un servicio y al ser un banco este funciona de la misma forma:
+                    <br>
+                    <ul class="center">
+                      <li>Primero debemos estar en el sistema, 
+                        <br> por lo que necesitaremos tener una cuenta en nuestro banco.</li>
+                      <li>Después podremos obtener ingresos tras haber prestado un servicio a la comunidad y será ingresado en la cuenta del usuario.</li>
+                      <li>Y por ultimo, podremos canjear nuestras horas obtenidas en diferentes servicios que necesitemos que ofrezcan otros usuarios.</li>
+                    </ul>
+                    <hr>
+                  </p>
+                  <a href="/sites/information.html" class="btn_information"> Si quieres conocer más clickea aquí</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <div class="col s12 m12 l4">
+        <div class="row"> 
+          <div class="space_between">
+            <div class="card orange lighten-3">
+              <div class="card-content black-text">
+                <div class="center">
+                  <img class="center image_size" src="/img/inicio-img/cerditonaranja.jpg" >
+                </div>
+                <span class="card-title center"><b>¿Qúe se intercambia?</b></span>
+                  <p class="words_style">
+                    Los servicios o actividades que se pueden intercambiar dependen de la imaginación 
+                    y de la diversidad de experiencias de los usuarios del Banco del Tiempo. 
+                    <br>
+                    Aunque la mayoria se caracterizan por estar vinculados a actividades de vida diaria.
+                   
+                  </p>
+                  <p>
+                    Por ejemplo: limpieza del hogar, cuidado de personas mayores, conductor con coche, etc... 
+                    <hr>
+                  </p>
+                  
+                  <a href="/sites/service.html" class="btn_information"> Si quieres conocer más clickea aquí</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+  </div>
+    
+    
+<!--FOOTER de la pagina -->
+<footer class=" orange darken-3" >
+    <div class="container" >
+      <div class="row" >
+        <div class="col l3 m12 s12 recuadro" >
+          <h5>Herramientas de Accesibilidad</h5>
+          <ul>
+            <li>
+              <a target="_blank" href="http://www.chromevox.com/" class="l12"><img src="/img/chromevox.png" width="80px"></a>    
+            </li>
+          </ul>
+        </div>
+        <div class="col l3 m12 s12">
+          <ul>
+            <li><a href="index.html" class="grey-text text-lighten-4">Inicio</a></li>
+            <li><a href="/sites/information.html" class="grey-text text-lighten-4">Información</a></li>
+            <li><a href="/sites/service.html" class="grey-text text-lighten-4">Servicios</a></li>
+            <li><a href="/sites/who.html" class="grey-text text-lighten-4">¿Quienes Somos?</a></li>
+          </ul>
+        </div>
+        <div class="col l3 m12 s12">
+          <h6 class="white-text">Queremos saber más acerca de ti</h6>
+          <form action="" method="GET">
+            
+            <input type="email" placeholder="Por favor, introduce tu email" maxlength="200">
+            <input type="submit" value="Enviar">
+          </form>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
+          <ul >
+            <li><a class=" col l3grey-text text-lighten-3" target="_blank" href="https://es.linkedin.com/"><img class="circle" src="img/LinkedIn.png" height="40px" /></a></li>
+            <li><a class=" col l3 grey-text text-lighten-3" target="_blank" href="https://github.com/ccolivares/UyA"><img class="circle" src="img/github.png" height="40px" /></a></li>
+            <li><a class=" col l3grey-text text-lighten-3" target="_blank" href="https://www.ull.es/"><img class="circle"  src="img/ulllogo.png" height="40px" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class=" white-text container text_deco">
+        © 2020 Copyright 
+      </div>
+    </div>
+        
+  </footer>
+
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="/js/materialize.js"></script>
+<script src="/js/init.js"></script>
+<script src="/js/app.js"></script>
+    
+
+<script>
+   
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems);
+  });
+
+
+</script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAtBSfn1C6EoYUOFq5e_pd_HHHBtl2Z1h4",
+    authDomain: "uya-joel-carla.firebaseapp.com",
+    databaseURL: "https://uya-joel-carla.firebaseio.com",
+    projectId: "uya-joel-carla",
+    storageBucket: "uya-joel-carla.appspot.com",
+    messagingSenderId: "42826357311",
+    appId: "1:42826357311:web:17c2b45c2300d27831f68a",
+    measurementId: "G-LX4TYGY31P"
+  };
+  // Initialize Firebase
+  //firebase.initializeApp(firebaseConfig);
+  //firebase.analytics();
+</script>
+  
   </body>
+
 </html>
