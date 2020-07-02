@@ -56,27 +56,25 @@
   
 <!--CONTENT OF THE WEB -->
 <div class="row center container">
-  <h3 class=" orange-text text-darken-4 center">Registrarse</h3>
+  <h3 class=" orange-text text-darken-4 center">Iniciar Sesión</h3>
     <div class="col container center s12 m12 l12">
       <form>
-        <div class="">
-          <input class="cyan-text text-lighten-4" id="signupemail" type="email" placeholder="Correo electrónico">
+        <div class="form-group">
+          <label for="email"></label>
+          <input class="cyan-text text-lighten-4" id="email" type="email" placeholder="Correo electrónico">
         </div>
-        <div class="">
-          <input class="cyan-text text-lighten-4" id="signuppassword" type="password" placeholder="Contraseña">
+        <div class="form-group">
+          <label for="password" ></label>
+          <input class="cyan-text text-lighten-4" id="password" type="password" placeholder="Contraseña">
         </div>
-        <br />
-        <br />
         <div class="">
           <label>
-            <a href="login.html" class="cyan-text text-darken-1 center" style="font-size: 130%; text-decoration: underline;">Ya poseo una cuenta</a>
+            <a href="register.html" class="cyan-text text-darken-1 center" style="font-size: 130%; text-decoration: underline;">Quiero registrarme</a>
           </label>
         </div>
-        <br />
-        <br />
-        <button class="waves-effect waves-light btn orange lighten-3" onclick="registro()">Registrarse</button>
+        <button class="waves-effect waves-light btn orange lighten-3" onclick="login()">Acceder</button>
     
-      </form>
+    </form>
   </div>
 </div>
 <!--FOOTER de la pagina -->
@@ -134,10 +132,13 @@
   <script src="../js/app.js"></script>        
 
   <script>
+   
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.sidenav');
       var instances = M.Sidenav.init(elems);
     });
+
+
   </script>
   
 </body>
